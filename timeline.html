@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>instagram</title>
+  <!--  tilwind-css -->
+  <link rel="stylesheet" href="./public/src/css/style.css">
+  <!-- custom css -->
+  <link rel="stylesheet" href="./public/src/css/custom.css">
+  <!--  font awsome -->
+  <script src="https://kit.fontawesome.com/2ab099f38c.js" crossorigin="anonymous"></script>
+  <!-- fav icon -->
+  <link rel="shortcut icon" href="./public/assets/images/Instagram-Icon.png" type="image/x-icon">
+  <!--  remix icon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main flex justify-between">
+    <div class="main-left border border-r w-2/12 h-screen">
+      <div class="logo">
+        <img src="./public/assets/images/a.png" alt="">
+      </div>
+      <div class="icon-logo">
+        <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <div class="nav">
+        <ul>
+          <li>
+            <a href="#">
+              <img class="home" src="./public/assets/images/8723112_home_icon.png" alt="">
+              <span class="active">Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./public/assets/images/search-interface-symbol.png" alt="">
+              <span>Search</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./public/assets/images/direction.png" alt="">
+              <span>Explore</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./public/assets/images/reels.png" alt="">
+              <span>Reels</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./public/assets/images/massenger.png" alt="">
+              <span>Messages</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./public/assets/images/heart.png" alt="">
+              <span>Notifications</span>
+            </a>
+          </li>
+          <li id="createButton">
+            <a href="#">
+              <img src="./public/assets/images/tab.png" alt="">
+              <span>Create</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="profile" src="./public/assets/images/user.jpg" alt="">
+              <span>Profile</span>
+            </a>
+          </li>
+          <li class="menu">
+            <a href="#">
+              <img src="./public/assets/images/menu.png" alt="">
+              <span>More</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="right-part flex w-10/12 h-screen">
+      <div class="main-center w-8/12">
+        <!--  story section -->
+        <div class="story-section">
+          <div class="story">
+            <div class="story-image">
+              <img src="./public/assets/images/user.jpg" alt="">
+            </div>
+            <p class="username">shahadat_</p>
+          </div>
+          <div class="story">
+            <div class="story-image">
+              <img
+                src="https://www.washingtonpost.com/graphics/2019/entertainment/oscar-nominees-movie-poster-design/img/black-panther-web.jpg"
+                alt="">
+            </div>
+            <p class="username">s_hussain</p>
+          </div>
+          <div class="story">
+            <div class="story-image">
+              <img
+                src="https://www.washingtonpost.com/graphics/2019/entertainment/oscar-nominees-movie-poster-design/img/black-panther-web.jpg"
+                alt="">
+            </div>
+            <p class="username">s_hussain</p>
+          </div>
+          <div class="story">
+            <div class="story-image">
+              <img src="https://discoverymood.com/wp-content/uploads/2020/04/Mental-Strong-Women-min.jpg" alt="">
+            </div>
+            <p class="username">hussain</p>
+          </div>
+          <div class="story">
+            <div class="story-image">
+              <img src="https://indianwomennetwork.com/wp-content/uploads/2022/02/slider-women-final-1.png" alt="">
+            </div>
+            <p class="username">hussain_op</p>
+          </div>
+          <div class="story">
+            <div class="story-image">
+              <img
+                src="https://www.happierhuman.com/wp-content/uploads/2022/07/glass-half-full-type-persons-lessons-learned.jpg"
+                alt="">
+            </div>
+            <p class="username">sh78</p>
+          </div>
+          <div class="story">
+            <div class="story-image">
+              <img
+                src="https://www.koimoi.com/wp-content/new-galleries/2022/12/lady-gaga-once-broke-down-recalling-her-casting-couch-experience-001.jpg"
+                alt="">
+            </div>
+            <p class="username">_hussain</p>
+          </div>
+          <div class="story">
+            <div class="story-image">
+              <img src="https://t3.ftcdn.net/jpg/03/16/72/68/360_F_316726850_Kp5gHry52XIA0Cedl7b2K1remR1hJ8NU.jpg"
+                alt="">
+            </div>
+            <p class="username">shahadat</p>
+          </div>
+
+        </div>
+        <!--  story section -->
+        <!-- user post<!--  -->
+        <div class="post-section">
+          <!-- <div class="post">
+            <div class="post-header">
+              <div class="left">
+                <div class="img">
+                  <img src="./public/assets/images/user.jpg" alt="">
+                </div>
+                <div class="username">
+                  <h4><a href="#">shahadat_hussain</a></h4>
+                  <p>Original audio</p>
+                </div>
+                <div class="post-time">
+                  <p> <span>.</span> 9h</p>
+                </div>
+              </div>
+              <div class="right">
+                <a class="option-button" onclick="showOptionDialog()"><i class="fa-solid fa-ellipsis"></i></a>
+              </div>
+            </div>
+            <div class="post-option-dialog">
+              <div class="option-dialog-box">
+                <button class="delete" onclick="deletePost()">Delete</button>
+                <button onclick="editPost()" class="edit">Edit</button>
+                <button class="hid-like">Hide like counting</button>
+                <button class="off-comment">Turn of commenting</button>
+                <button class="go-post">Go to post</button>
+                <button class="share">Share to</button>
+                <button class="copy-link">Copy Link</button>
+                <button class="embed">Embed</button>
+                <button class="about">About this account</button>
+                <button class="cancel-post" onclick="closeOptionDialog() ">cancel</button>
+              </div>
+            </div>
+
+
+
+
+            <div class="post-body">
+              <div class="post-media">
+                <img
+                  src="https://www.washingtonpost.com/graphics/2019/entertainment/oscar-nominees-movie-poster-design/img/black-panther-web.jpg"
+                  alt="">
+              </div>
+            </div>
+            <div class="post-footer">
+              <div class="footer-top">
+                <div class="likes">
+                  <button><img src="./public/assets/images/heart.png" alt=""></button>
+                  <button><img class="comment" src="./public/assets/images/comment.png" alt=""></button>
+                  <button><img src="./public/assets/images/share.png" alt=""></button>
+
+                </div>
+                <div class="bookmark">
+                  <button><img src="./public/assets/images/bookmark.png" alt=""></button>
+                </div>
+              </div>
+              <div class="footer-content">
+                <div class="like-counts">
+                  <p>99,500 likes</p>
+                </div>
+                <div class="post-content">
+                  <h3 class="username">shahadat_hussain</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut totam sunt,
+                  </p>
+                </div>
+                <div class="post-comments">
+                  <a href="#">View all 687 comments</a>
+                  <div class="comment-form">
+                    <input id="comment" type="text" placeholder="Add a comment...">
+                    <input id="submit" type="submit" value="Post">
+                  </div>
+                  <div id="divider"></div>
+                </div>
+              </div>
+            </div>
+
+          </div> -->
+        </div>
+        <!-- user post<!--  -->
+      </div>
+      <div class="main-right w-4/12">
+        <div class="user-profile">
+          <div class="user-image">
+            <img src="./public/assets/images/user.jpg" alt="">
+          </div>
+          <div class="user-name-box">
+            <a href="#">shahadat_hussain_ripon</a>
+            <p class="name">Shahadat Hussain Ripon</p>
+          </div>
+          <div class="switcher">
+            <a href="#">Switch</a>
+          </div>
+
+        </div>
+        <div class="suggetion-box">
+          <div class="suggetion-header">
+            <h4>Suggeted for you</h4>
+            <a href="#">See All</a>
+          </div>
+          <!-- follower section -->
+          <div class="follower">
+            <div class="follower-inner">
+              <div class="follower-img">
+                <img
+                  src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt="">
+              </div>
+              <div class="follower-info">
+                <a href="#">andray_har</a>
+                <p>Suggeest for you</p>
+              </div>
+            </div>
+            <div class="follow">
+              <a href="#">Follow</a>
+            </div>
+          </div>
+          <div class="follower">
+            <div class="follower-inner">
+              <div class="follower-img">
+                <img
+                  src="https://www.happierhuman.com/wp-content/uploads/2022/07/glass-half-full-type-persons-lessons-learned.jpg"
+                  alt="">
+              </div>
+              <div class="follower-info">
+                <a href="#">arrya_stark</a>
+                <p>Suggeest for you</p>
+              </div>
+            </div>
+            <div class="follow">
+              <a href="#">Follow</a>
+            </div>
+          </div>
+          <div class="follower">
+            <div class="follower-inner">
+              <div class="follower-img">
+                <img src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_481292845_77896.jpg" alt="">
+              </div>
+              <div class="follower-info">
+                <a href="#">rock990</a>
+                <p>Following you</p>
+              </div>
+            </div>
+            <div class="follow">
+              <a href="#">Follow</a>
+            </div>
+          </div>
+          <div class="follower">
+            <div class="follower-inner">
+              <div class="follower-img">
+                <img src="https://cdn.hswstatic.com/gif/play/0b7f4e9b-f59c-4024-9f06-b3dc12850ab7-1920-1080.jpg" alt="">
+              </div>
+              <div class="follower-info">
+                <a href="#">Roy878</a>
+                <p>Following you</p>
+              </div>
+            </div>
+            <div class="follow">
+              <a href="#">Follow</a>
+            </div>
+          </div>
+          <!-- follower section -->
+        </div>
+        <div class="right-footer">
+          <ul>
+            <li><a href="#">Meta</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Price</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Trademark</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Language</a></li>
+            <li><a href="#">meta verified</a></li>
+            <li class="meta"><a href="#">© 2023 INSTAGRAM FROM META</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="create-post-modal">
+    <form action="" class="create-post-form">
+      <div class="modal">
+        <div class="modal-header">
+          <button class="back"><i class="fa-solid fa-arrow-left-long"></i></button>
+          <p>Create new post</p>
+          <button class="next">Next</button>
+          <input id="submit" type="submit" value="Share">
+        </div>
+        <div class="msg-box"></div>
+        <div class="modal-body">
+          <div class="media-uploader">
+            <img src="./public/assets/images/media (1).png" alt="">
+
+            <p>Drag photos and videos here</p>
+
+            <label for="media">Select from computer <input name="file" type="file" class="hidden" id="media"></label>
+
+          </div>
+          <div class="media-preview">
+            <img src="" alt="">
+
+          </div>
+          <div class="post-content">
+            <div class="user">
+              <img src="./public/assets/images/user.jpg" alt="">
+              <h4>shahadat_hussain_ripon</h4>
+            </div>
+            <textarea name="content" id="content" cols="35" rows="3" placeholder="Write a caption..."></textarea>
+            <div class="photo-link">
+              <textarea style="border-top:1px solid #ccc;" name="photo" id="photo" cols="35" rows="2"
+                placeholder="Please enter photo link insted ! we will upload photo after some days ☺️"></textarea>
+            </div>
+            <div class="post-user-info">
+              <input
+                style="border-top: 1px solid #ccc; background-color: transparent;outline: none;font-size: 15px; font-weight: 500; color:#fff;width: 100%;"
+                type=" text" name="username" placeholder="Who is this? Please enter name">
+              <textarea style="border-top:1px solid #ccc;" name="userphoto" id="userphoto" cols="35" rows="2"
+                placeholder="Please enter your profile photo link ☺️"></textarea>
+            </div>
+            <div class="options">
+              <ul>
+                <li>
+                  <a href="#">Add Location</a>
+                  <a href="#">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </a>
+                </li>
+                <li>
+                  <select name="accessibility" id="accessibility">
+                    <option value="accessibility">Accesibility</option>
+                  </select>
+                </li>
+                <li>
+                  <select name="settings" id="">
+                    <option value="settings">Advanced settings</option>
+                  </select>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </form>
+    <div class="cancel-dialog">
+      <div class="dialog-box">
+        <h4>Discard post?</h4>
+        <p>If you leave, your edits won't be saved.</p>
+
+        <button class="discard">Discard Post</button>
+        <button class="cancel">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- javascript files -->
+  <script src="./public/src/js/data.js"></script>
+  <script src="./public/src/js/functions.js"></script>
+  <script src="./public/src/js/index.js"></script>
+
+</body>
+
+</html>
